@@ -1,0 +1,45 @@
+
+#lbLogin {
+    text-decoration: none;
+    margin-left: 45%;
+    font-size: 30px;
+    color: darkblue;
+   
+}
+#LogonForm {
+    box-shadow: 10px 10px 30px 20px lightyellow;
+    border-radius: 50%;
+    width: 600px;
+    height: 400px;
+    background-color: lightyellow;
+}
+
+.table{
+    margin-left: 20%;
+}
+h3 {
+    font-size: 30px;
+    margin-left: 38%;
+    color: darkblue;
+}
+.em, .pwd, .cookie{
+    font-size: 30px; 
+    color: darkblue;
+}
+input[type=password], input[type=text] {
+    width: 200px;
+    height: 20px;
+    margin-left: 10px;
+    border-radius: 20px;
+    border: solid lightyellow 1px;
+    background-color:lightblue;
+}
+body {
+    background: url("Universe.jpg") no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    place-content: center;
+    min-height: 100vh;
+}

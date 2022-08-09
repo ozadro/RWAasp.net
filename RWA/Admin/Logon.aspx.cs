@@ -22,9 +22,12 @@ namespace Admin
                 
             else
                 Response.Redirect("Logon.aspx", true);
+                
         }
         private bool ValidateUser(string userName, string passWord)
         {
+
+
             if (userName == "123" && passWord == "123")
                 return true;
             return false;
